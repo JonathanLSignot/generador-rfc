@@ -3,7 +3,7 @@ const personaMoral = require('./lib/personaMoral');
 const personaFisica = require('./lib/personaFisica'); 
 
 const infoPersonaMoral = {
-    razonSocial: 'cia. 13 el ARROZ @ C@FE ALGO, S. en N.C.',
+    razonSocial: 'cia. YA QUE 13 el ARROZ @ C@FE ALGO, S. en N.C.',
     fechaConstitucion: new Date()
 }
 /**
