@@ -6,7 +6,8 @@
             "es6"   
         ],
         "target": "es6",
-        "strict": true
+        "strict": true,
+        "module": "commonjs"
     },
     "exclude": [
         "node_modules"

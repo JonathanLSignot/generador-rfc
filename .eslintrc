@@ -3,8 +3,10 @@
         "ecmaVersion": 6
     },
     "env": {
-        "node": true,
-        "browser": true
+        "node": true
     },
-    "extends": "eslint:recommended"
+    "extends": "eslint:recommended",
+    "globals": {
+        "no-console": false
+    }
 }
