@@ -2,9 +2,13 @@
 const personaMoral = require('./lib/personaMoral'); 
 const personaFisica = require('./lib/personaFisica'); 
 
+/**
+ * @param {string} razonSocial
+ * @param {date} fechaConstitucion
+ */
 const infoPersonaMoral = {
-    razonSocial: 'cia. XX YA QUE 13 el ARROZ @ C@FE ALGO, S. en N.C.',
-    fechaConstitucion: new Date()
+    razonSocial: 'Tiendas Soriana SA DE CV',
+    fechaConstitucion: new Date('1999-10-22')
 }
 /**
  * 
@@ -16,5 +20,6 @@ const  generar = (tipo, data) =>
     tipo === 'fisica' ? personaFisica.generarRFC(data) :
     `${tipo} no es tipo de persona valido. indique si es moral o fisica`
 
-console.log(generar('moral', infoPersonaMoral));
+console.log('infoPersonaMoral: ', infoPersonaMoral);
+console.log('RFC: ', generar('moral', infoPersonaMoral));
  
